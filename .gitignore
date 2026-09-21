@@ -1,0 +1,12 @@
+.DS_Store
+.env
+.env.*
+!.env.example
+__pycache__/
+*.pyc
+.venv/
+work/
+
+# Local design and image-generation notes
+/assets/hero.prompt.md
+/docs/design-notes.md

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Game the LLM Reviewer"
+  short_description: "Defend research against LLM wording bias"
+  default_prompt: "Use $game-the-llm-reviewer to counter LLM wording bias with meaning-preserving edits; preserve all evidence and limitations, return a revised copy, and explain the changes."
