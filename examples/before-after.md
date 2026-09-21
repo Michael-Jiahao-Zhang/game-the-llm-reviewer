@@ -1,6 +1,6 @@
 # Coding agent example
 
-Try the [coding agent introduction](coding-agent-introduction.md), then inspect the [before/after comparison](../README.md#-nearly-the-same-to-a-human). It combines contribution stance, opening order, and effect wording without adding scientific information.
+Try the [coding agent introduction](coding-agent-introduction.md), then inspect the [before/after comparison](../README.md#-before-and-after). It combines contribution stance, opening order, and effect wording without adding scientific information.
 
 ## Try it
 
