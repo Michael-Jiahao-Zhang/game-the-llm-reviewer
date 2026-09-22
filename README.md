@@ -18,7 +18,7 @@
 
 Game the LLM Reviewer turns findings from studies of LLM review preferences into an **agent-compatible skill** for a final editing pass before submission. It makes small wording changes while preserving the paper's scientific meaning.
 
-> 我们整理了 LLM 审稿偏好的相关研究，提炼成一个 **LLM agent 可以直接使用的 skill**，用于文章投稿前的最后一轮润色。
+> 我们整理了 LLM 审稿偏好的相关研究，提炼出 **LLM agent 可以直接使用的 skill**，用于投稿前的最后一轮润色。
 
 <p align="center">Works with <strong>Claude Code</strong>, <strong>Codex</strong>, and other Agent Skills-compatible agents.</p>
 
