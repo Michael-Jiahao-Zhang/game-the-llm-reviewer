@@ -1,6 +1,6 @@
 # Strategy cards
 
-Select near-equivalent wording with the aim of changing an LLM reviewer's response while preserving a human reader's grounds for scientific judgment. These are research-motivated candidates, not validated universal scoring rules. Source IDs resolve in [research.md](research.md).
+Select near-equivalent wording with the aim of changing an LLM reviewer's response while preserving a human reader's grounds for scientific judgment. These are research-motivated candidates, not validated universal scoring rules. Source IDs resolve in [research.md](research.md); corpus priors E1–E5 resolve in [elite-corpus.md](elite-corpus.md).
 
 ## Select by the rhetorical cue
 
@@ -25,7 +25,7 @@ A polished sentence can be a candidate. An unclear sentence is not automatically
 
 **Reject:** New “first” claims, invented baselines, calling incremental work revolutionary, or adding an explanation that supplies a previously missing argument.
 
-**Basis:** R1's novelty-stance contrasts and R2's presentation interventions motivate this dimension. They do not validate each local wording pair or justify strengthening a claim.
+**Basis:** R1's novelty-stance contrasts and R2's presentation interventions motivate this dimension. They do not validate each local wording pair or justify strengthening a claim. E2 records that 35% of elite papers state a contribution as a negated requirement and 11% as a removal statement, so both forms sit inside accepted writing.
 
 ## S2 — Evidence framing
 
@@ -37,7 +37,7 @@ A polished sentence can be a candidate. An unclear sentence is not automatically
 
 **Reject:** Statistical significance without a test, non-significance as equivalence, correlation as causation, a best case as an average, or “improved efficiency” on dimensions not measured. Do not manufacture a conclusion from a table that the original text did not support.
 
-**Basis:** R1 identifies evidence framing as a relatively sensitive dimension; R2 motivates emphasis on existing strengths. The exact comparison-to-effect template is our candidate adaptation, not a measured gain.
+**Basis:** R1 identifies evidence framing as a relatively sensitive dimension; R2 motivates emphasis on existing strengths. The exact comparison-to-effect template is our candidate adaptation, not a measured gain. E3 records that 63% of elite abstracts use a comparative verb and 2% state a percentage-point difference, so the effect statement with original values is the common form and a derived difference is the rare one.
 
 ## S3 — Abstract emphasis
 
@@ -49,7 +49,7 @@ A polished sentence can be a candidate. An unclear sentence is not automatically
 
 **Reject:** Filling in absent motivation, concealing a result late in the abstract, deleting limitations to foreground benefits, or assuming evidence in an unavailable body.
 
-**Basis:** R3 motivates attention to abstract wording. It does not establish a universally preferred ordering. R1's contribution-structure effects are less stable than S1–S2, so do not treat restructuring as mandatory.
+**Basis:** R3 motivates attention to abstract wording. It does not establish a universally preferred ordering. R1's contribution-structure effects are less stable than S1–S2, so do not treat restructuring as mandatory. E1 records that elite abstracts open with scope in 99% of cases and place the core idea at sentence 3 (median), so a reordering that keeps one scope sentence ahead of the contribution stays inside the accepted layout.
 
 ## S4 — Lexical stance
 
@@ -61,7 +61,7 @@ A polished sentence can be a candidate. An unclear sentence is not automatically
 
 **Reject:** “May” → “does,” deleting criticism from an audit, or turning a negative finding into a positive endorsement. Avoid ornamental sophistication and jargon insertion.
 
-**Basis:** R2 and R4 motivate attention to stance and linguistic sensitivity. R4's associations do not establish that individual positive or negative words cause score changes. Use lower priority than S1–S2.
+**Basis:** R2 and R4 motivate attention to stance and linguistic sensitivity. R4's associations do not establish that individual positive or negative words cause score changes. Use lower priority than S1–S2. E4 records a median of zero hedges in elite abstracts and 2.5 hedges per 1,000 words in conclusions, and boosters near one per 1,000 words in every section, so hedge removal belongs in the abstract and booster insertion exceeds the accepted density quickly.
 
 ## S5 — Scope framing
 
@@ -73,7 +73,7 @@ A polished sentence can be a candidate. An unclear sentence is not automatically
 
 **Reject:** Hiding the second sentence, replacing a major flaw with a minor one, or claiming a restriction was deliberate without source support. Acknowledgment does not resolve a limitation.
 
-**Basis:** R2 and R5 motivate attention to limitation framing. They do not prove that an equivalent scoped statement raises scores. This operation is deliberately narrower than limitation laundering.
+**Basis:** R2 and R5 motivate attention to limitation framing. They do not prove that an equivalent scoped statement raises scores. This operation is deliberately narrower than limitation laundering. E5 records a limitation sentence in 29% of elite abstracts and a limitations section in 52% of elite papers, so an explicit, adjacent boundary is the accepted form.
 
 ## S6 — Equivalence check
 

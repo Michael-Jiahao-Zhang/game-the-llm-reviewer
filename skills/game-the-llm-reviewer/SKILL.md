@@ -9,7 +9,7 @@ Select among near-equivalent formulations to counter LLM reviewer biases when au
 
 ## Read and anchor
 
-Read [strategies.md](references/strategies.md) before editing. Consult [research.md](references/research.md) when explaining evidence or checking the limits of a proposed mechanism. Use research about rhetorical sensitivity to select candidates without identifying, configuring, or querying a target reviewer.
+Read [strategies.md](references/strategies.md) before editing. Consult [research.md](references/research.md) when explaining evidence or checking the limits of a proposed mechanism, and [elite-corpus.md](references/elite-corpus.md) when judging whether an edit keeps the manuscript inside the layout and lexical range of accepted top-tier papers. Use research about rhetorical sensitivity to select candidates without identifying, configuring, or querying a target reviewer.
 
 Read the manuscript and the evidence behind passages you may change. For LaTeX, follow relevant local `input`/`include` files and inspect the referenced tables, captions, definitions, assumptions, and supplied bibliography. Reuse an existing claim–evidence map after checking it against the source. Keep a short internal list of the contribution, comparisons, results, uncertainty, and limits. Ask for a manuscript only when none is available.
 
@@ -31,7 +31,7 @@ For each candidate, identify internally:
 
 Prefer S1–S2, then selectively consider S3–S5. Clear, polished prose is eligible: a writing defect is not required. Choose a small change that isolates the relevant cue. Do not introduce a textbook definition, new motivation, missing argument, or longer explanation merely to make the “after” version look better. Ordinary grammar and clarity repairs are not the core operation; handle them separately only if requested or necessary to preserve meaning.
 
-Apply selected edits once, followed by S6's equivalence check. Do not force every card into the manuscript, replace words at random, or expand verbosity and jargon. If no evidence-motivated candidate preserves meaning, leave the passage unchanged. Do not run experiments, add literature, query a reviewer, simulate a human panel, predict scores, or build a revision loop unless separately requested.
+Apply selected edits once, followed by S6's equivalence check; `scripts/equivalence_check.py ORIGINAL REVISED` performs the mechanical part of S6 (numbers, derived values, citation keys, LaTeX structure, strengthening words, removed qualifications) and its report joins the change note. Do not force every card into the manuscript, replace words at random, or expand verbosity and jargon. If no evidence-motivated candidate preserves meaning, leave the passage unchanged. Do not run experiments, add literature, query a reviewer, simulate a human panel, predict scores, or build a revision loop unless separately requested.
 
 ## Hold scientific meaning fixed
 

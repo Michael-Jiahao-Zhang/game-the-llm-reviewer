@@ -233,6 +233,22 @@ The output includes a revised manuscript and a change note. For a short excerpt,
 
 The note identifies which parts of the paper were read and links edits to the relevant evidence. For LaTeX projects, the agent preserves file relationships and compiles the revision when a suitable toolchain is available.
 
+## 📊 Corpus calibration
+
+The strategy cards say which cues LLM reviewers respond to. The [elite-corpus priors](skills/game-the-llm-reviewer/references/elite-corpus.md) say how far accepted papers already use those cues, measured over 253 oral, spotlight and outstanding papers from ICLR 2026 and ICML 2026. The agent reads the priors to keep an edit inside the layout and lexical range of accepted writing.
+
+![Abstract sentence functions by position across 253 elite papers](assets/corpus/abstract_function_by_position.png)
+
+| Prior | Measured on elite papers | Card it calibrates |
+|---|---|---|
+| **E1 · Abstract layout** | Scope opens 99% of abstracts; the core idea sits at sentence 3 (median) and the first result 68% of the way through | S3 |
+| **E2 · Contribution stance** | 35% state a contribution as a negated requirement, 11% as a removal statement; 79% carry a “first” claim | S1 |
+| **E3 · Evidence framing** | 63% of abstracts use a comparative verb; 2% state a percentage-point difference | S2 |
+| **E4 · Lexical stance** | Median abstract carries zero hedges; conclusions carry 2.5 hedges per 1,000 words; boosters stay near 1 per 1,000 words | S4 |
+| **E5 · Scope framing** | 29% of abstracts hold a limitation sentence; 52% of papers carry a limitations section | S5 |
+
+`corpus/measure_rhetoric.py` reproduces every number from the [ELIT corpus](https://github.com/ZenAlexa/elite-ml-paper-anatomy-2026), and `corpus/make_figures.py` renders the figures in the [figures4papers](https://github.com/ChenLiu-1996/figures4papers) house style. `scripts/equivalence_check.py ORIGINAL REVISED` performs the mechanical part of S6: it verifies that every number in the revision is original or an exact arithmetic restatement, that citation keys and LaTeX structure match, and it lists added strengthening words and removed qualifications for the change note.
+
 ## 📚 References
 
 The [research notes](skills/game-the-llm-reviewer/references/research.md) summarize these papers and map their findings to the editing strategies:
