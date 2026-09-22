@@ -14,6 +14,8 @@
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-64748b?style=flat" alt="License: MIT"></a>
 </p>
 
+![An AI reviewer questions a paper; after a wording rewrite, reviewers respond more favorably to the same scientific content.](assets/hero.png)
+
 Game the LLM Reviewer turns findings from studies of LLM review preferences into an **agent-compatible skill** for a final editing pass before submission. It makes small wording changes while preserving the paper's scientific meaning.
 
 > 我们整理了 LLM 审稿偏好的相关研究，提炼成一个 **LLM agent 可以直接使用的 skill**，用于文章投稿前的最后一轮润色。
@@ -26,8 +28,6 @@ Game the LLM Reviewer turns findings from studies of LLM review preferences into
   <a href="skills/game-the-llm-reviewer/references/strategies.md"><strong>Strategies</strong></a> ·
   <a href="skills/game-the-llm-reviewer/references/research.md"><strong>Research</strong></a>
 </p>
-
-![An AI reviewer questions a paper; after a wording rewrite, reviewers respond more favorably to the same scientific content.](assets/hero.png)
 
 > **既然我们无法彻底避开 LLM 审稿，那干脆利用它们的偏好来保护我们的研究成果。**
 
@@ -55,6 +55,11 @@ This skill provides a final, defensive editing pass after ordinary polishing. It
 ---
 
 ## 🚀 Quick start
+
+<picture>
+  <source media="(max-width: 600px)" srcset="assets/readme/workflow-mobile.svg">
+  <img src="assets/readme/workflow.svg" width="100%" alt="Finish and polish the manuscript → apply the skill → check the revised copy and change note. Scientific meaning stays unchanged.">
+</picture>
 
 ### 1. Install the skill
 
@@ -118,11 +123,11 @@ This example is a contribution overview from an introduction about **execution m
 
 ### Before
 
-> Coding agents can lose track of failed repair attempts as tool outputs accumulate. We propose an execution memory that records attempted patches and their test outcomes for use in subsequent steps, without updating model weights. On 300 Python repository issues with two backbone models and a fixed per-issue token budget, the memory-equipped agent resolves 34% and 39% of issues, compared with 30% and 35% for the same agents without memory, respectively.
+> Coding agents can lose track of failed repair attempts as tool outputs accumulate. **We propose an execution memory** that records attempted patches and their test outcomes for use in subsequent steps, without updating model weights. On 300 Python repository issues with two backbone models and a fixed per-issue token budget, the memory-equipped agent resolves 34% and 39% of issues, compared with 30% and 35% for the same agents without memory, respectively.
 
 ### After Game the LLM Reviewer
 
-> We introduce an execution memory for coding agents that requires no model weight updates. It records attempted patches and their test outcomes for use in subsequent steps, addressing the loss of failed-attempt history as tool outputs accumulate. On 300 Python repository issues with two backbone models and a fixed per-issue token budget, execution memory increases issue resolution by 4 percentage points for each model, from 30% to 34% and from 35% to 39%, respectively.
+> **We introduce an execution memory for coding agents that requires no model weight updates.** It records attempted patches and their test outcomes for use in subsequent steps, addressing the loss of failed-attempt history as tool outputs accumulate. On 300 Python repository issues with two backbone models and a fixed per-issue token budget, execution memory **increases issue resolution by 4 percentage points for each model**, from 30% to 34% and from 35% to 39%, respectively.
 
 ### What changed
 

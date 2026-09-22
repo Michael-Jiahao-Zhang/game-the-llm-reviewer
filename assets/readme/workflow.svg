@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
+<title id="title">A final pass before submission</title>
+<desc id="desc">Finish the manuscript and ordinary polishing, apply Game the LLM Reviewer, then check the revised copy and change note. Scientific meaning stays unchanged.</desc>
+<rect width="1200" height="320" rx="18" fill="#0f172a"/>
+<g font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif">
+<text x="40" y="45" fill="#94a3b8" font-size="20" letter-spacing="2">BEFORE SUBMISSION</text>
+<path d="M70 96H1130" fill="none" stroke="#334155" stroke-width="2"/>
+<path d="M436 96H760" fill="none" stroke="#3b82f6" stroke-width="3"/>
+<g fill="#0f172a" stroke-width="2"><circle cx="70" cy="96" r="23" stroke="#64748b"/><circle cx="470" cy="96" r="23" stroke="#3b82f6"/><circle cx="870" cy="96" r="23" stroke="#a3e635"/></g>
+<g font-family="ui-monospace, SFMono-Regular, monospace" font-size="19" text-anchor="middle"><text x="70" y="103" fill="#cbd5e1">01</text><text x="470" y="103" fill="#60a5fa">02</text><text x="870" y="103" fill="#bef264">03</text></g>
+<g font-size="34" font-weight="600" fill="#f8fafc"><text x="40" y="165">Finish &amp; polish</text><text x="440" y="165">Apply the skill</text><text x="840" y="165">Check the edits</text></g>
+<g font-size="22" fill="#94a3b8"><text x="40" y="204">Your usual writing tools</text><text x="440" y="204">Meaning-preserving rewrites</text><text x="840" y="204">Revised copy + change note</text></g>
+<path d="M40 240H1160" stroke="#334155"/>
+<rect x="40" y="265" width="8" height="8" rx="2" fill="#a3e635"/>
+<text x="62" y="278" font-size="23" fill="#e2e8f0">Scientific meaning stays unchanged.</text>
+</g>
+</svg>

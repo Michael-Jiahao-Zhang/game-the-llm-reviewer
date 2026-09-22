@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="580" viewBox="0 0 600 580" role="img" aria-labelledby="title desc">
+<title id="title">A final pass before submission</title>
+<desc id="desc">Finish and polish, apply the skill, then check the revised copy and change note. Scientific meaning stays unchanged.</desc>
+<rect width="600" height="580" rx="18" fill="#0f172a"/>
+<g font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif">
+<text x="36" y="53" font-size="23" fill="#94a3b8" letter-spacing="2">BEFORE SUBMISSION</text>
+<path d="M60 117V408" stroke="#334155" stroke-width="2"/>
+<g fill="#0f172a" stroke-width="2"><circle cx="60" cy="129" r="24" stroke="#64748b"/><circle cx="60" cy="266" r="24" stroke="#3b82f6"/><circle cx="60" cy="403" r="24" stroke="#a3e635"/></g>
+<g font-size="20" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, monospace"><text x="60" y="136" fill="#cbd5e1">01</text><text x="60" y="273" fill="#60a5fa">02</text><text x="60" y="410" fill="#bef264">03</text></g>
+<g font-size="36" font-weight="600" fill="#f8fafc"><text x="110" y="140">Finish &amp; polish</text><text x="110" y="277">Apply the skill</text><text x="110" y="414">Check the edits</text></g>
+<g font-size="25" fill="#94a3b8"><text x="110" y="183">Your usual writing tools</text><text x="110" y="320">Meaning-preserving rewrites</text><text x="110" y="457">Revised copy + change note</text></g>
+<path d="M36 493H564" stroke="#334155"/>
+<rect x="36" y="527" width="8" height="8" rx="2" fill="#a3e635"/>
+<text x="60" y="539" font-size="25" fill="#e2e8f0">Scientific meaning stays unchanged.</text>
+</g></svg>
