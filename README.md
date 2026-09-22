@@ -1,8 +1,8 @@
 # 🤖 Game the LLM Reviewer
 
-Game the LLM Reviewer is a **skill** for editing a finished paper before submission. It uses findings from studies of LLM review preferences to make small wording changes while preserving the paper's scientific meaning.
+Game the LLM Reviewer turns findings from studies of LLM review preferences into an **agent-compatible skill** for a final editing pass before submission. It makes small wording changes while preserving the paper's scientific meaning.
 
-> 我们整理了 LLM 审稿偏好的相关研究，提炼成一个 **LLM agent 可直接使用的 skill**，用于投稿前的最后一轮润色。
+> 我们整理了 LLM 审稿偏好的相关研究，提炼成一个 **LLM agent 可以直接使用的 skill**，用于文章投稿前的最后一轮润色。
 
 Works with **Claude Code**, **Codex**, and other Agent Skills-compatible agents.
 
@@ -12,9 +12,11 @@ Works with **Claude Code**, **Codex**, and other Agent Skills-compatible agents.
 
 > **既然我们无法彻底避开 LLM 审稿，那干脆利用它们的偏好来保护我们的研究成果。**
 
-We oppose handing peer-review decisions over to LLMs. Authors often have little say in whether a reviewer uses one, though, and studies have found that changes in wording can affect the resulting evaluation. This skill gives authors a way to account for those preferences after their usual writing and revision work, without querying a target reviewer.
+We oppose handing peer-review decisions over to LLMs, but authors often have little say in whether a reviewer uses one. Papers should be judged on the soundness of their methods, the strength of their evidence, and the substance of their contributions. Yet studies have found that rephrasing the same passage can change an LLM reviewer's score.
 
-> 论文凭方法、证据和贡献说话。但已有研究发现，LLM 审稿人经常同一段话换个说法就给出不同的分。
+> 论文的评价应基于方法是否可靠、证据是否充分、贡献是否扎实。但已有研究发现，LLM 审稿人对论文同一段话换个措辞就会打出不同的分。
+
+This skill provides a final, defensive editing pass after ordinary polishing. It selects wording that aligns with documented LLM reviewer preferences while preserving meaning and keeping the scientific assessment a human reviewer could make materially unchanged. It requires no knowledge of the reviewer model and does not query it.
 
 > 这个工具是投稿前的最后一道“防御性润色”：我们根据 LLM 审稿偏好的研究，在意思完全不变的几种说法里将论文改写成 LLM reviewer 更青睐的那种，而这种改动对人类审稿人来说几乎没有区别。
 
@@ -24,7 +26,7 @@ We oppose handing peer-review decisions over to LLMs. Authors often have little 
 >
 > Authors remain responsible for the manuscript and for following their venue's rules on AI assistance and disclosure.
 
-> **写完论文 → 跑完你常用的写作工具 → 最后跑一遍 Game-the-LLM-Reviewer。**
+> **写论文 → 跑你常用的写作工具 → 最后跑一遍 Game-the-LLM-Reviewer。**
 
 ## 🚀 Quick start
 
