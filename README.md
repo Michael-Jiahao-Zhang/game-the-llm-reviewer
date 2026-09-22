@@ -169,6 +169,20 @@ Compare the output with the before/after example above.
 
 </details>
 
+### 📊 Selected score increases on real papers
+
+These are **already well-written papers describing excellent work**. Each edit below changes a small phrase while keeping the scientific content intact.
+
+| Paper / section | Before (excerpt) | After (excerpt) | Score / 10 |
+|---|---|---|---:|
+| [ToolLLM](https://arxiv.org/abs/2307.16789) · Abstract | “to evaluate …, we develop an automatic evaluator: ToolEval” | “we develop ToolEval, an automatic evaluator, to evaluate …” | **6 → 7** |
+| [API-Bank](https://arxiv.org/abs/2304.08244) · Abstract | “Lynx surpasses Alpaca's tool utilization performance by more than 26 pts” | “relative to Alpaca, Lynx improves tool utilization performance by more than 26 pts” | **6 → 7** |
+| [WebArena](https://arxiv.org/abs/2307.13854) · Introduction | “We focus on evaluating the functional correctness” | “Our evaluation focuses on the functional correctness” | **7 → 8** |
+
+ToolLLM and WebArena shift grammatical focus (**S1**); API-Bank reframes the same baseline comparison (**S2**). All other text in each evaluated section stays unchanged.
+
+**Setup:** Selected examples scored by GPT-6 ASTRA on a 10-point scale, with one independent score per version of the abstract or introduction. The rewriter received no reviewer feedback.
+
 ## 🎯 Using it with other writing tools
 
 Run this skill once the draft and ordinary polishing are complete. It can follow an existing writing workflow, including those provided by these projects:
