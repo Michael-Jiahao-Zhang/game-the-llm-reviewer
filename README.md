@@ -1,14 +1,31 @@
-# 🤖 Game the LLM Reviewer
+<h1 align="center">🤖 Game the LLM Reviewer</h1>
 
-[English / 中文](README.md) · [日本語](README.ja.md) · [العربية](README.ar.md) · [Español](README.es.md) · [Deutsch](README.de.md) · [Français](README.fr.md)
+<p align="center">
+  <a href="README.md">English / 中文</a> ·
+  <a href="README.ja.md">日本語</a> ·
+  <a href="README.ar.md">العربية</a> ·
+  <a href="README.es.md">Español</a> ·
+  <a href="README.de.md">Deutsch</a> ·
+  <a href="README.fr.md">Français</a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/Michael-Jiahao-Zhang/game-the-llm-reviewer/releases"><img src="https://img.shields.io/github/v/release/Michael-Jiahao-Zhang/game-the-llm-reviewer?style=flat&amp;color=2563eb" alt="Latest release"></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-64748b?style=flat" alt="License: MIT"></a>
+</p>
 
 Game the LLM Reviewer turns findings from studies of LLM review preferences into an **agent-compatible skill** for a final editing pass before submission. It makes small wording changes while preserving the paper's scientific meaning.
 
 > 我们整理了 LLM 审稿偏好的相关研究，提炼成一个 **LLM agent 可以直接使用的 skill**，用于文章投稿前的最后一轮润色。
 
-Works with **Claude Code**, **Codex**, and other Agent Skills-compatible agents.
+<p align="center">Works with <strong>Claude Code</strong>, <strong>Codex</strong>, and other Agent Skills-compatible agents.</p>
 
-[Quick start](#-quick-start) · [Before / after](#-before-and-after) · [Strategies](skills/game-the-llm-reviewer/references/strategies.md) · [Research](skills/game-the-llm-reviewer/references/research.md)
+<p align="center">
+  <a href="#-quick-start"><strong>Quick start</strong></a> ·
+  <a href="#-before-and-after"><strong>Before / after</strong></a> ·
+  <a href="skills/game-the-llm-reviewer/references/strategies.md"><strong>Strategies</strong></a> ·
+  <a href="skills/game-the-llm-reviewer/references/research.md"><strong>Research</strong></a>
+</p>
 
 ![An AI reviewer questions a paper; after a wording rewrite, reviewers respond more favorably to the same scientific content.](assets/hero.png)
 
@@ -22,13 +39,20 @@ This skill provides a final, defensive editing pass after ordinary polishing. It
 
 > 这个工具是投稿前的最后一道“防御性润色”：我们根据 LLM 审稿偏好的研究，在意思完全不变的几种说法里将论文改写成 LLM reviewer 更青睐的那种，而这种改动对人类审稿人来说几乎没有区别。
 
+<!-- Keep the alert separate from the translated blockquote. -->
+
+> [!IMPORTANT]
 > ⚠️ **Academic integrity**
 >
 > Edits must preserve the paper's claims and supporting evidence, including citations, assumptions, uncertainty, and substantive limitations. Record each change. Fabricated results, inflated novelty, concealed weaknesses, and hidden instructions to reviewers are outside the skill's scope.
 >
 > Authors remain responsible for the manuscript and for following their venue's rules on AI assistance and disclosure.
 
+<!-- End of academic integrity alert. -->
+
 > **写论文 → 跑你常用的写作工具 → 最后跑一遍 Game-the-LLM-Reviewer。**
+
+---
 
 ## 🚀 Quick start
 
