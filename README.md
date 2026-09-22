@@ -1,5 +1,7 @@
 # 🤖 Game the LLM Reviewer
 
+[English / 中文](README.md) · [日本語](README.ja.md) · [العربية](README.ar.md) · [Español](README.es.md) · [Deutsch](README.de.md) · [Français](README.fr.md)
+
 Game the LLM Reviewer is a **skill** for editing a finished paper before submission. It uses findings from studies of LLM review preferences to make small wording changes while preserving the paper's scientific meaning.
 
 > 我们整理了 LLM 审稿偏好的相关研究，提炼成一个 **LLM agent 可直接使用的 skill**，用于投稿前的最后一轮润色。
