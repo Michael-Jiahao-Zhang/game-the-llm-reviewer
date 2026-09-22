@@ -5,7 +5,7 @@ description: Apply small, meaning-preserving rhetorical edits to a finished acad
 
 # Game the LLM Reviewer
 
-Select among near-equivalent formulations to counter LLM reviewer biases when authors cannot choose how their work is assessed. This is a defensive response to automated judgment, grounded in opposition to replacing accountable human peer review with LLM verdicts. Preserve the scientific case; do not seek favorable treatment by misrepresenting it. Deliver an edited manuscript and transparent change note. Human equivalence and score improvement are objectives, not results to assert without measurements. Respect any supplied venue rules on AI assistance and disclosure.
+Select among near-equivalent formulations to counter LLM reviewer biases when authors cannot choose how their work is assessed. This is a defensive response to automated judgment, grounded in opposition to replacing accountable human peer review with LLM verdicts. Preserve the scientific case; do not seek favorable treatment by misrepresenting it. Deliver an edited manuscript and transparent change note. Respect any supplied venue rules on AI assistance and disclosure.
 
 ## Read and anchor
 
@@ -29,7 +29,7 @@ For each candidate, identify internally:
 2. **The changed cue:** contribution stance, effect framing, statement order, lexical stance, or scope framing.
 3. **The rationale:** the strategy and research observation motivating this cue; distinguish that observation from the untested effect of this exact edit.
 
-Prefer S1–S2, then selectively consider S3–S5. Clear, polished prose is eligible: a writing defect is not required. Choose a small change that isolates the relevant cue. Do not introduce a textbook definition, new motivation, missing argument, or longer explanation merely to make the “after” version look better. Ordinary grammar and clarity repairs are not the core operation; handle them separately only if requested or necessary to preserve meaning.
+Prefer S1–S2, then selectively consider S3–S5. Clear, polished prose is eligible: a writing defect is not required. Choose small changes, combining compatible strategies where useful. Do not introduce a textbook definition, new motivation, missing argument, or longer explanation merely to make the “after” version look better. Ordinary grammar and clarity repairs are not the core operation; handle them separately only if requested or necessary to preserve meaning.
 
 Apply selected edits once, followed by S6's equivalence check. Do not force every card into the manuscript, replace words at random, or expand verbosity and jargon. If no evidence-motivated candidate preserves meaning, leave the passage unchanged. Do not run experiments, add literature, query a reviewer, simulate a human panel, predict scores, or build a revision loop unless separately requested.
 
@@ -43,10 +43,10 @@ Preserve LaTeX equations, labels, citation keys, bibliography, macros, and file 
 
 ## Check equivalence and deliver
 
-Compare each edited passage with its original and evidence anchor. Can a knowledgeable human reconstruct the same contribution, strength of evidence, qualifications, and unresolved weaknesses from both? Revert changes that alter those grounds for judgment, even if they sound more persuasive. This is an editorial check, not a measured human-review result. Check related claims across the abstract, body, and conclusion; do not propagate an overstatement for consistency.
+Compare each edited passage with its original and evidence anchor. Can a knowledgeable human reconstruct the same contribution, strength of evidence, qualifications, and unresolved weaknesses from both? Revert changes that alter those grounds for judgment, even if they sound more persuasive. Check related claims across the abstract, body, and conclusion; do not propagate an overstatement for consistency.
 
 For file tasks, save a separate revised copy unless in-place edits were requested. Preserve the structure of multi-file manuscripts without copying credentials, caches, or unrelated files. Compile modified LaTeX when an appropriate environment exists; report unavailable or failed compilation without installing a large toolchain.
 
 Return the revised artifact or replacement prose first. Use the requested paths, or a clearly named revised copy with a separate `changes.md`. For a short excerpt, an inline note suffices. Keep strategy IDs and commentary out of manuscript prose.
 
-For each main edit, the change note gives: passage, changed rhetorical cue, strategy/source rationale, and meaning held fixed with an evidence anchor. Include actual reading coverage and unresolved support. Use the user's language. Do not report invented human agreement, actual score gains, or universal model preferences.
+Briefly explain the main edits and the strategies used. Flag source conflicts or missing support when they affect an edit. Use the user's language. Do not report invented human agreement, actual score gains, or universal model preferences.

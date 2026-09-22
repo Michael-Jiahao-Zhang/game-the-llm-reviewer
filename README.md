@@ -245,7 +245,7 @@ The output includes a revised manuscript and a change note. For a short excerpt,
 |---|---|---|
 | Introduction opening and results | S1/S3: contribution first; S2: resolution gains | Same execution memory, unchanged model weights, 300 Python issues, two models, token budget, and resolution rates |
 
-The note identifies which parts of the paper were read and links edits to the relevant evidence. For LaTeX projects, the agent preserves file relationships and compiles the revision when a suitable toolchain is available.
+The note briefly explains the main changes and flags any source issues that need your attention. For LaTeX projects, the agent preserves file relationships and compiles the revision when a suitable toolchain is available.
 
 ## 📚 References
 
