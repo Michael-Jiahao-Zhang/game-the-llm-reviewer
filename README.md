@@ -1,4 +1,4 @@
-<h1 align="center">🤖 Game the LLM Reviewer</h1>
+<h1 align="center">📝 Game the LLM Reviewer</h1>
 
 <p align="center">
   <a href="README.md">English / 中文</a> ·
@@ -20,7 +20,22 @@ Game the LLM Reviewer turns findings from studies of LLM review preferences into
 
 > 我们整理了 LLM 审稿偏好的相关研究，提炼出 **LLM agent 可以直接使用的 skill**，用于投稿前的最后一轮润色。
 
-<p align="center">Works with <strong>Claude Code</strong>, <strong>Codex</strong>, and other Agent Skills-compatible agents.</p>
+<!-- Agent icons: https://github.com/lobehub/lobe-icons -->
+<p align="center">Works with</p>
+<p align="center">
+  <picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/lobehub/lobe-icons/2e76c48721e91b9aaa40803a0fa2eb8aca7399c4/packages/static-png/dark/claudecode-color.png"><img src="https://raw.githubusercontent.com/lobehub/lobe-icons/2e76c48721e91b9aaa40803a0fa2eb8aca7399c4/packages/static-png/light/claudecode-color.png" width="24" height="24" align="absmiddle" alt=""></picture>&nbsp;<strong>Claude&nbsp;Code</strong> &nbsp; · &nbsp;
+  <picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/lobehub/lobe-icons/2e76c48721e91b9aaa40803a0fa2eb8aca7399c4/packages/static-png/dark/codex-color.png"><img src="https://raw.githubusercontent.com/lobehub/lobe-icons/2e76c48721e91b9aaa40803a0fa2eb8aca7399c4/packages/static-png/light/codex-color.png" width="24" height="24" align="absmiddle" alt=""></picture>&nbsp;<strong>Codex</strong> &nbsp; · &nbsp;
+  <picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/lobehub/lobe-icons/2e76c48721e91b9aaa40803a0fa2eb8aca7399c4/packages/static-png/dark/cursor.png"><img src="https://raw.githubusercontent.com/lobehub/lobe-icons/2e76c48721e91b9aaa40803a0fa2eb8aca7399c4/packages/static-png/light/cursor.png" width="24" height="24" align="absmiddle" alt=""></picture>&nbsp;<strong>Cursor</strong> &nbsp; · &nbsp;
+  <picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/lobehub/lobe-icons/2e76c48721e91b9aaa40803a0fa2eb8aca7399c4/packages/static-png/dark/antigravity-color.png"><img src="https://raw.githubusercontent.com/lobehub/lobe-icons/2e76c48721e91b9aaa40803a0fa2eb8aca7399c4/packages/static-png/light/antigravity-color.png" width="24" height="24" align="absmiddle" alt=""></picture>&nbsp;<strong>Antigravity</strong>
+</p>
+<p align="center">
+  <picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/lobehub/lobe-icons/2e76c48721e91b9aaa40803a0fa2eb8aca7399c4/packages/static-png/dark/githubcopilot.png"><img src="https://raw.githubusercontent.com/lobehub/lobe-icons/2e76c48721e91b9aaa40803a0fa2eb8aca7399c4/packages/static-png/light/githubcopilot.png" width="24" height="24" align="absmiddle" alt=""></picture>&nbsp;<strong>GitHub&nbsp;Copilot</strong> &nbsp; · &nbsp;
+  <picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/lobehub/lobe-icons/2e76c48721e91b9aaa40803a0fa2eb8aca7399c4/packages/static-png/dark/opencode.png"><img src="https://raw.githubusercontent.com/lobehub/lobe-icons/2e76c48721e91b9aaa40803a0fa2eb8aca7399c4/packages/static-png/light/opencode.png" width="24" height="24" align="absmiddle" alt=""></picture>&nbsp;<strong>OpenCode</strong> &nbsp; · &nbsp;
+  <picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/lobehub/lobe-icons/2e76c48721e91b9aaa40803a0fa2eb8aca7399c4/packages/static-png/dark/kimi-color.png"><img src="https://raw.githubusercontent.com/lobehub/lobe-icons/2e76c48721e91b9aaa40803a0fa2eb8aca7399c4/packages/static-png/light/kimi-color.png" width="24" height="24" align="absmiddle" alt=""></picture>&nbsp;<strong>Kimi&nbsp;Code&nbsp;CLI</strong> &nbsp; · &nbsp;
+  <picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/lobehub/lobe-icons/2e76c48721e91b9aaa40803a0fa2eb8aca7399c4/packages/static-png/dark/trae-color.png"><img src="https://raw.githubusercontent.com/lobehub/lobe-icons/2e76c48721e91b9aaa40803a0fa2eb8aca7399c4/packages/static-png/light/trae-color.png" width="24" height="24" align="absmiddle" alt=""></picture>&nbsp;<strong>TraeCode</strong> &nbsp; · &nbsp;
+  <picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/lobehub/lobe-icons/2e76c48721e91b9aaa40803a0fa2eb8aca7399c4/packages/static-png/dark/qwen-color.png"><img src="https://raw.githubusercontent.com/lobehub/lobe-icons/2e76c48721e91b9aaa40803a0fa2eb8aca7399c4/packages/static-png/light/qwen-color.png" width="24" height="24" align="absmiddle" alt=""></picture>&nbsp;<strong>Qwen&nbsp;Code</strong>
+</p>
+<p align="center">and other <a href="https://github.com/vercel-labs/skills#supported-agents">Agent Skills-compatible agents</a>.</p>
 
 <p align="center">
   <a href="#-quick-start"><strong>Quick start</strong></a> ·
