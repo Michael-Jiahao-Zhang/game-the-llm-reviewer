@@ -151,7 +151,7 @@ This example is a contribution overview from an introduction about **execution m
 |---|---|
 | **S1 · Contribution stance** | Move the existing no-weight-update property into the opening description of the method |
 | **S2 · Evidence framing** | Express the same resolution rates as 4-percentage-point gains, retaining both baseline and final rates |
-| **S3 · Abstract emphasis** | Lead with the contribution, then retain the existing problem context |
+| **S3 · Contribution emphasis** | Lead with the contribution, then retain the existing problem context |
 
 Both versions describe the same method and evaluation. The revision foregrounds the contribution and expresses the existing rate differences in percentage points. See the [strategy cards](skills/game-the-llm-reviewer/references/strategies.md) for details.
 
@@ -200,7 +200,7 @@ Run this skill once the draft and ordinary polishing are complete. It can follow
 |---|---|
 | **S1 · Contribution stance** | Express the same established contribution through a different grammatical emphasis |
 | **S2 · Evidence framing** | Rephrase the same numerical comparison as a measured effect |
-| **S3 · Abstract emphasis** | Change the order or emphasis of existing statements without adding an explanation |
+| **S3 · Contribution emphasis** | Change the order or emphasis of existing statements without adding an explanation |
 | **S4 · Lexical stance** | Adjust non-factual evaluative wording while preserving certainty |
 | **S5 · Scope framing** | Rephrase the same evaluated and unevaluated scope without reducing the limitation |
 | **S6 · Equivalence check** | Check that the edits leave claims, evidence, and scientific implications intact |
@@ -247,6 +247,13 @@ The output includes a revised manuscript and a change note. For a short excerpt,
 
 The note briefly explains the main changes and flags any source issues that need your attention. For LaTeX projects, the agent preserves file relationships and compiles the revision when a suitable toolchain is available.
 
+## 🆕 Updates
+
+**2026-10-14**
+
+- **[RobustReview / SciCore](https://arxiv.org/abs/2609.39027):** Extended S3 to introductions, contribution lists, and conclusions; added an internal science-core comparison to S6 for larger edits.
+- **[OpenAI’s skill guidance for GPT-6 Astra](https://developers.openai.com/blog/rethinking-skills-and-prompts-for-gpt-6-astra):** Shortened the skill description, made supporting reads conditional on the edit, and clarified that one pass covers the full requested scope, including checking and correcting edits.
+
 ## 📚 References
 
 The [research notes](skills/game-the-llm-reviewer/references/research.md) summarize these papers and map their findings to the editing strategies:
@@ -256,6 +263,7 @@ The [research notes](skills/game-the-llm-reviewer/references/research.md) summar
 - [Gaming AI-Assisted Peer Reviews](https://arxiv.org/abs/2606.10159) studies abstract rephrasing.
 - [LLM-REVal](https://arxiv.org/abs/2510.12367) compares human and LLM writing preferences.
 - [Are We There Yet?](https://arxiv.org/abs/2412.01708) examines review failures, including responses to disclosed limitations.
+- [A Missing Piece for Trustworthy AI Reviewers](https://arxiv.org/abs/2609.39027) introduces RobustReview and SciCore for rhetorical robustness.
 
 ## 🤝 Contributing
 

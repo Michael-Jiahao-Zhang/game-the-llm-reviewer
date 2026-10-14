@@ -1,6 +1,6 @@
 # Research behind the skill
 
-Five studies inform the [strategy cards](strategies.md). Each entry summarizes the finding and how it guides editing.
+Six studies inform the [strategy cards](strategies.md). Each entry summarizes the finding and how it guides editing.
 
 ## R1 — Rhetorical dimensions
 
@@ -46,3 +46,12 @@ Five studies inform the [strategy cards](strategies.md). Each entry summarizes t
 
 - **Finding:** LLM reviews can echo author-disclosed limitations and exhibit other manipulation vulnerabilities.
 - **Editing takeaway — S5:** State the evaluated scope clearly and retain explicit boundaries and limitations.
+
+## R6 — Rhetorical robustness and science-core review
+
+**A Missing Piece for Trustworthy AI Reviewers: From Benchmarking Rhetorical Robustness to SciCore Review** (2026)
+
+[Paper](https://arxiv.org/abs/2609.39027) · [Code](https://github.com/c-steve-wang/Robust_Review)
+
+- **Finding:** RobustReview evaluates full-manuscript rhetorical rewrites. SciCore combines manuscript review with review of an extracted scientific record to reduce rhetorical sensitivity.
+- **Editing takeaway — S3, S6:** Consider contribution emphasis beyond the abstract. Adapt the science-core idea to compare claims, evidence, and conditions before and after larger edits, without adding a reviewer call.

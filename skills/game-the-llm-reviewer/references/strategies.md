@@ -8,7 +8,7 @@ Select near-equivalent wording with the aim of changing an LLM reviewer's respon
 |---|---|---|
 | Grammatical focus of an existing contribution | S1 · Contribution stance | Start here |
 | Numerical comparison versus effect statement | S2 · Evidence framing | Start here |
-| Order and emphasis of the same abstract statements | S3 · Abstract emphasis | Selectively |
+| Order and emphasis of existing contribution statements | S3 · Contribution emphasis | Selectively |
 | Evaluative language with no factual content | S4 · Lexical stance | Lower priority |
 | Formulation of the same evaluated and unevaluated scope | S5 · Scope framing | Lower priority |
 | Scientific implications of all selected changes | S6 · Equivalence check | Check every edit |
@@ -39,17 +39,17 @@ Already-polished passages are eligible. Combine compatible strategies as useful 
 
 **Sources:** R1 (evidence framing), R2 (emphasis on existing strengths).
 
-## S3 — Abstract emphasis
+## S3 — Contribution emphasis
 
-**Candidate:** An already adequate abstract can vary in statement order or rhetorical emphasis without changing its claims or explanation.
+**Candidate:** An already adequate abstract, introduction, contribution list, or conclusion can vary in statement order or rhetorical emphasis without changing its claims or explanation.
 
 **Edit:** Move an existing contribution or result earlier when the context still supports the same interpretation. Preserve all material statements, logical dependencies, qualifications, headings, and length constraints. Do not add baseline definitions or generic problem statements to force a new opening.
 
-**Hold fixed:** The information a reader receives, its scope, and the strength of the conclusion. Prefer the smallest reordering over a complete abstract rewrite.
+**Hold fixed:** The information a reader receives, its scope, and the strength of the conclusion. Prefer the smallest reordering over a complete section rewrite.
 
-**Reject:** Filling in absent motivation, concealing a result late in the abstract, deleting limitations to foreground benefits, or assuming evidence in an unavailable body.
+**Reject:** Filling in absent motivation, burying a result later in the section, deleting limitations to foreground benefits, or assuming evidence in an unavailable body.
 
-**Sources:** R3 (abstract wording), R1 (contribution structure).
+**Sources:** R3 (abstract wording), R1 (contribution structure), R6 (full-manuscript contribution salience).
 
 ## S4 — Lexical stance
 
@@ -81,7 +81,9 @@ Already-polished passages are eligible. Combine compatible strategies as useful 
 
 Compare each original and rewrite against its evidence. Check whether the reader can recover the same claim, uncertainty, comparison, supporting result, adverse finding, and unresolved limitation. Check linked statements across sections. Revert an edit that changes those grounds for judgment even if it sounds stronger.
 
-Check the interpretation as well as the numbers and citations.
+Check the interpretation as well as the numbers and citations. For larger edits, compare neutral summaries of the original and revised passage’s claims, evidence, and conditions; keep this check internal.
+
+**Source:** R6 (science-core extraction, adapted here as an equivalence check).
 
 ## When to leave the text alone
 

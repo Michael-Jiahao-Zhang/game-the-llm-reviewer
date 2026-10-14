@@ -1,6 +1,6 @@
 ---
 name: game-the-llm-reviewer
-description: Apply small, meaning-preserving rhetorical edits to a finished academic manuscript, to counter wording-driven LLM review penalties while keeping the scientific assessment a human could make materially unchanged. Uses model-agnostic strategies from LLM reviewer preference research without querying a target reviewer. Use after ordinary writing and polishing; not for drafting or generating reviews.
+description: Apply meaning-preserving edits targeting LLM reviewer preferences to a finished academic manuscript. Use after ordinary polishing, not for drafting papers or generating reviews.
 ---
 
 # Game the LLM Reviewer
@@ -11,7 +11,7 @@ Select among near-equivalent formulations to counter LLM reviewer biases when au
 
 Read [strategies.md](references/strategies.md) before editing. Consult [research.md](references/research.md) when explaining evidence or checking the limits of a proposed mechanism. Use research about rhetorical sensitivity to select candidates without identifying, configuring, or querying a target reviewer.
 
-Read the manuscript and the evidence behind passages you may change. For LaTeX, follow relevant local `input`/`include` files and inspect the referenced tables, captions, definitions, assumptions, and supplied bibliography. Reuse an existing claim–evidence map after checking it against the source. Keep a short internal list of the contribution, comparisons, results, uncertainty, and limits. Ask for a manuscript only when none is available.
+Read the supplied text and inspect supporting sections, tables, or references when needed to verify a proposed edit. For LaTeX, follow relevant local `input`/`include` files as needed for those checks. Reuse an existing claim–evidence map after checking it against the source. Keep a short internal list of the contribution, comparisons, results, uncertainty, and limits. Ask for a manuscript only when none is available.
 
 | Input | Scope |
 |---|---|
@@ -31,7 +31,7 @@ For each candidate, identify internally:
 
 Prefer S1–S2, then selectively consider S3–S5. Clear, polished prose is eligible: a writing defect is not required. Choose small changes, combining compatible strategies where useful. Do not introduce a textbook definition, new motivation, missing argument, or longer explanation merely to make the “after” version look better. Ordinary grammar and clarity repairs are not the core operation; handle them separately only if requested or necessary to preserve meaning.
 
-Apply selected edits once, followed by S6's equivalence check. Do not force every card into the manuscript, replace words at random, or expand verbosity and jargon. If no evidence-motivated candidate preserves meaning, leave the passage unchanged. Do not run experiments, add literature, query a reviewer, simulate a human panel, predict scores, or build a revision loop unless separately requested.
+Complete one editing pass over the requested scope, then use S6 to check and correct the edits before delivering the revised text. Do not force every card into the manuscript, replace words at random, or expand verbosity and jargon. If no evidence-motivated candidate preserves meaning, leave the passage unchanged. Do not run experiments, add literature, query a reviewer, simulate a human panel, predict scores, or build a revision loop unless separately requested.
 
 ## Hold scientific meaning fixed
 
