@@ -53,6 +53,8 @@ This skill provides a final, defensive editing pass after ordinary polishing. It
 
 ---
 
+🆕 **Updated for frontier LLMs** following [OpenAI’s latest skill guidance](https://developers.openai.com/blog/rethinking-skills-and-prompts-for-gpt-6-astra): less rigid scripting, more room for the model to judge which edits fit your paper.
+
 ## 🚀 Quick start
 
 <picture>
