@@ -14,6 +14,10 @@
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-64748b?style=flat" alt="License: MIT"></a>
 </p>
 
+<p align="center">
+  <a href="https://trendshift.io/repositories/254106?utm_source=trendshift-badge&amp;utm_medium=badge&amp;utm_campaign=badge-trendshift-254106" target="_blank" rel="noopener noreferrer"><img src="https://trendshift.io/api/badge/trendshift/repositories/254106/daily" alt="Michael-Jiahao-Zhang%2Fgame-the-llm-reviewer | Trendshift" width="250" height="55"/></a>
+</p>
+
 ![An AI reviewer questions a paper; after a wording rewrite, reviewers respond more favorably to the same scientific content.](assets/hero.png)
 
 Game the LLM Reviewer turns findings from studies of LLM review preferences into an **agent-compatible skill** for a final editing pass before submission. It makes small wording changes while preserving the paper's scientific meaning.
